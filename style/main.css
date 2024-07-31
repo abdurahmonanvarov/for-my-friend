@@ -1,0 +1,13 @@
+.wrapper a{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 50px;
+    color: aliceblue;
+    background-color: blue;
+    text-decoration: none;
+}
+.wrapper h2{
+    margin-bottom: 50px;
+}

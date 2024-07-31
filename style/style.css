@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: aquamarine;
+}
+.wrapper{
+    width: min(800px, 90%);
+    margin: 100px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4vh;
+    text-align: center;
+}
+.wrapper #form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.wrapper #form *{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(52, 29, 29);
+}
+.wrapper h2{
+    color: blue;
+}
+input:checked{
+    background: transparent ;
+}
+#button{
+    background-color: blue;
+    color: wheat;
+    font-size: 20px;
+    cursor: pointer;
+}
