@@ -2,6 +2,8 @@
 const name = document.getElementById('name');
 const password = document.getElementById('password');
 const button = document.getElementById('button');
+const button3 = document.getElementById('button2')
+
 
 function user(name, password){
    if(name.value != 'Husanboy'){
@@ -32,3 +34,4 @@ button && button.addEventListener('click', function(event){
    }
    
 })
+

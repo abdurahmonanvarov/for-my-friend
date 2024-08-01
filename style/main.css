@@ -1,5 +1,5 @@
 .wrapper a{
-    font-size: 20px;
+    font-size: 5vh;
     border-radius: 10px;
     border: 1px solid black;
     padding: 15px;
@@ -7,6 +7,7 @@
     color: aliceblue;
     background-color: blue;
     text-decoration: none;
+    width: min(100%, 90%);
 }
 .wrapper h2{
     margin-bottom: 50px;

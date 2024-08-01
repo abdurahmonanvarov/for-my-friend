@@ -36,3 +36,12 @@ input:checked{
     font-size: 20px;
     cursor: pointer;
 }
+#button2{
+    position: absolute;
+    background-color: black;
+    top: 15px;
+    right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
